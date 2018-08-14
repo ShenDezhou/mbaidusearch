@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle mbaidusearch'
+      'command': 'mbaidusearch:mbaidu-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': 'mbaidu Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': 'mbaidusearch:mbaidu-it'
+        }
+      ]
+    ]
+  }
+]
