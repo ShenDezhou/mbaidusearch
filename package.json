@@ -1,13 +1,13 @@
 {
   "name": "mbaidusearch",
   "main": "./lib/googlesearch",
-  "version": "1.8.0",
-  "description": "Search Highlighted word in mbaidu",
+  "version": "1.0.0",
+  "description": "Search Highlighted word in m.baidu",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "mbaidusearch:mbaidu-it"
   },
-  "repository": "https://github.com/shendezhou/googlesearch",
+  "repository": "https://github.com/shendezhou/mbaidusearch",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
